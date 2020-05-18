@@ -2,14 +2,14 @@
   "name": "todo-app",
   "version": "1.0.0",
   "description": "CRUD Todo App",
-  "main": "index.js",
+  "main": "server.js",
   "engines": {
     "node": "12.x",
     "npm": "6.x"
   },
   "scripts": {
-    "start": "node ./index.js",
-    "dev": "nodemon ./index.js"
+    "start": "node ./server.js",
+    "dev": "nodemon ./server.js"
   },
   "keywords": [],
   "author": "Roger Kondrat",
