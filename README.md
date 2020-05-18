@@ -5,20 +5,20 @@
 1. Fork me to your own Github
 2. Git clone me to your local git
 3. From the command line and inside your cloned directory run `npm install`.
-3b. If it gave an error and said `node not found` or some error to that effect, do 3c
-3c. You likely don't have Node.js installed, so proceed to Nodejs.org, download and install nodejs there.
+- 3b. If it gave an error and said `node not found` or some error to that effect, do 3c
+- 3c. You likely don't have Node.js installed, so proceed to Nodejs.org, download and install nodejs there.
 4. Again from the command line and inside your cloned directory run `npm install`.
 5. From the command line type `code .` => the previous command only works with VS Code.
-5b. You don't use VS Code or the command doesn't work for some reason. Open a VS Code window, click on Open Folder nad navigate to the cloned directory and open it.
+- 5b. You don't use VS Code or the command doesn't work for some reason. Open a VS Code window, click on Open Folder nad navigate to the cloned directory and open it.
 6. You should see these files in the left sidebar of your IDE (VS Code, Atom, etc) `.gitignore, node_modules, package.json, package-lock.json` and this file `README.md`.
-6b. If you don't see `node_modules` run `npm install` from the director you are in via your terminal, IDE integrated terminal or another means; sadly I can't list them all.
+- 6b. If you don't see `node_modules` run `npm install` from the director you are in via your terminal, IDE integrated terminal or another means; sadly I can't list them all.
 7. Run `npm run dev`. This will launch the node development server called `nodemon`; look in your package.json and you'll see it listed there.
 8. Open a browser and browse to http://localhost:5000 and you should get a /GET error. This error tells you the Node/Express server is running!
 9. Good luck!
 
 ### YouTube video of the above setup instructions
 - If you get stuck; watch the below video.
-- Link:
+- Link: https://youtu.be/b58FIsQiick
 
 ## Objectives - Week 1
 - API for CRUD (CREATE, READ, UPDATE, DELETE) actions.
